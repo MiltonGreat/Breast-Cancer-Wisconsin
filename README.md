@@ -4,6 +4,22 @@
 
 This project uses the Breast Cancer Wisconsin (Diagnostic) dataset to practice binary classification techniques and predict whether a tumor is malignant or benign based on various features computed from fine needle aspirate (FNA) images of breast masses.
 
+### Quality Issues
+
+- Imbalanced dataset (malignant cases often fewer than benign).
+- Outliers in numerical features due to measurement noise.
+
+Cleaning/Transformation:
+- Apply SMOTE (Synthetic Minority Oversampling) for class imbalance.
+- Normalize features for SVM or Logistic Regression.
+
+Model Evaluation:
+- Focus on recall to minimize false negatives.
+- Use AUC-ROC to assess model discrimination.
+
+Dataset Limitations:
+- Dataset may not generalize well to different demographics or imaging techniques.
+
 ### Dataset Information
 
 The dataset contains features that describe the characteristics of cell nuclei present in breast cancer FNA images. These features were computed from digitized images and used for classification. The dataset includes:
