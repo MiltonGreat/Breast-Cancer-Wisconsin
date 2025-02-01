@@ -42,8 +42,8 @@ The dataset used for training and evaluation is the **Breast Cancer Wisconsin (D
 The models achieve the following accuracy on the test set:
 
 - Logistic Regression: ~97.4%
-- SVM: ~97.4%
-- Random Forest Classifier: ~96.5%
+- SVM: ~964%
+- Random Forest Classifier: ~97%
 
 All models perform exceptionally well, with high precision and recall for both classes (malignant and benign).
 
